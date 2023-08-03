@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node index",
     "start": "nodemon index"
   },
   "keywords": [],
@@ -17,7 +18,10 @@
     "graphql-subscriptions": "^2.0.0",
     "jsonwebtoken": "^9.0.1",
     "mongodb": "^5.7.0",
-    "mongoose": "^7.4.1"
+    "mongoose": "^7.4.1",
+    "react-router-dom": "^6.14.2",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
